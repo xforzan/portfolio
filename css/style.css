@@ -230,6 +230,77 @@ i {
   filter: drop-shadow(0 0 8px #61dafb);
 }
 
+
+/* ===================== PROYECTOS ===================== */
+.projects h2 {
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #ff8660, #d5491d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  flex: 1 1 280px;
+  max-width: 350px;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+  animation: fadeIn 0.6s ease backwards;
+}
+
+.project-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.project-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+  transition:
+    mix-blend-mode 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.project-card img:hover {
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.project-text p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.project-text h3 {
+  font-size: 1.1rem;
+}
+
 /* ===================== ANIMACIONES ===================== */
 @keyframes fadeIn {
   from {
