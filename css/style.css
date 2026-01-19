@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+} 
+
 body {
   background-color: #161513;
   color: #ffffff;
@@ -353,3 +357,4 @@ i {
     transform: translateY(0);
   }
 }
+
