@@ -358,3 +358,18 @@ i {
   }
 }
 
+/* ===================== RESPONSIVE ===================== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .experience-with {
+    flex-direction: column;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
