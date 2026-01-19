@@ -169,6 +169,67 @@ section {
   color: #161513;
 }
 
+
+
+/* ===================== EXPERIENCIA CON ===================== */
+.experience-with {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.experience-with h3 {
+  text-transform: uppercase;
+  color: #c5c5c5;
+}
+
+.experience-icons {
+  display: flex;
+  gap: 24px;
+}
+
+
+/* ===================== ICONOS ===================== */
+i {
+  font-size: 2rem;
+  background: linear-gradient(180deg, #ececec, #414141);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: filter 0.35s ease;
+}
+
+/* ===================== ICONOS TECNOLOGIAS ===================== */
+.experience-icons i:nth-child(1):hover {
+  background: #f7df1e;
+  background-clip: text;
+  filter: drop-shadow(0 0 8px #f7df1e);
+}
+
+.experience-icons i:nth-child(2):hover {
+  background: #e34f26;
+  background-clip: text;
+  filter: drop-shadow(0 0 8px #e34f26);
+}
+
+.experience-icons i:nth-child(3):hover {
+  background: #1572b6;
+  background-clip: text;
+  filter: drop-shadow(0 0 8px #1572b6);
+}
+
+.experience-icons i:nth-child(4):hover {
+  background: #339933;
+  background-clip: text;
+  filter: drop-shadow(0 0 8px #339933);
+}
+
+.experience-icons i:nth-child(5):hover {
+  background: #61dafb;
+  background-clip: text;
+  filter: drop-shadow(0 0 8px #61dafb);
+}
+
 /* ===================== ANIMACIONES ===================== */
 @keyframes fadeIn {
   from {
