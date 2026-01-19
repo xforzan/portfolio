@@ -41,3 +41,35 @@ header a:focus {
   outline: 2px solid #ff6b6b;
   outline-offset: 3px;
 }
+
+
+/* ===================== FOOTER ===================== */
+footer {
+  background-color: #191919;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-social {
+  margin: 10px 0;
+}
+
+.footer-social a {
+  font-size: 1.6rem;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+}
+
+.footer-social i {
+  transition: filter 0.25s ease;
+}
+
+.footer-social a:hover i {
+  background: #ffffff;
+  background-clip: text;
+  filter: drop-shadow(0 0 8px rgba(236, 236, 236, 0.8));
+}
