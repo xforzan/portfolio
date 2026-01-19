@@ -73,3 +73,55 @@ footer {
   background-clip: text;
   filter: drop-shadow(0 0 8px rgba(236, 236, 236, 0.8));
 }
+
+
+/* ===================== PERFIL ===================== */
+.profile {
+  animation: fadeIn 1s ease;
+}
+
+.profile h2 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  background: linear-gradient(90deg, #ff6b6b, #5f27cd);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff6b6b, #5f27cd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profile p {
+  max-width: 600px;
+  text-align: center;
+  line-height: 1.6;
+  color: #c5c5c5;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+
+/* ===================== ANIMACIONES ===================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
