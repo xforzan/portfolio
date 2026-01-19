@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
+    <!-- Estilos -->
     <link rel="stylesheet" href="/css/style.css" />
 
     <script src="/main.js" defer></script>
+
     <title>Achraf Nakhil · Portfolio</title>
   </head>
 
   <body>
+    <!-- ================= HEADER ================= -->
     <header>
       <h1>Achraf Nakhil</h1>
 
-      <nav>
+      <nav aria-label="Navegación principal">
         <ul>
           <li><a href="#projects">Proyectos</a></li>
           <li><a href="#experience">Experiencia</a></li>
@@ -28,7 +32,9 @@
       </nav>
     </header>
 
+    <!-- ================= MAIN ================= -->
     <main>
+      <!-- Perfil -->
       <section class="profile">
         <img
           class="profile-img"
@@ -56,6 +62,7 @@
         </div>
       </section>
 
+      <!-- Tecnologías -->
       <section class="experience-with">
         <h3>Experiencia con</h3>
 
@@ -68,6 +75,7 @@
         </div>
       </section>
 
+      <!-- Proyectos -->
       <section class="projects" id="projects">
         <h2>Proyectos</h2>
 
@@ -164,6 +172,7 @@
         </div>
       </section>
 
+      <!-- Experiencia -->
       <section class="experience" id="experience">
         <h2>Experiencia</h2>
 
@@ -192,15 +201,26 @@
       </section>
     </main>
 
+    <!-- ================= FOOTER ================= -->
     <footer class="footer">
       <p><strong>Achraf Nakhil</strong> — Desarrollador Full-Stack</p>
 
       <nav class="footer-social" aria-label="Redes sociales">
-        <a href="https://github.com/xforzan" target="_blank">
+        <a
+          href="https://github.com/xforzan"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
           <i class="fa-brands fa-github"></i>
         </a>
 
-        <a href="https://linkedin.com/in/achraf-nakhil" target="_blank">
+        <a
+          href="https://linkedin.com/in/achraf-nakhil"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </nav>
